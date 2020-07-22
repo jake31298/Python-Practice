@@ -6,12 +6,12 @@ num=int(num)
 
 divisor = range(1,num+1)
 
-list_of_divisors=[]
+divisors=[]
 
 for a in divisor:
     if((num%a)==0):
         #print(str(num)+" is able to be divided by " + str(a) +" evenly")
-        list_of_divisors.append(a)
+        divisors.append(a)
     #print(num/a)
 
-print(list_of_divisors)
+print(divisors)
